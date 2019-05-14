@@ -132,6 +132,8 @@ module Karafka
         setting :ssl_client_cert, nil
         # option ssl_client_cert_key [String, nil] SSL client certificate password
         setting :ssl_client_cert_key, nil
+        # option ssl_verify_hostname [Boolean, nil] Whether or not to verify SSL context hostname
+        setting :ssl_verify_hostname, nil
         # option sasl_gssapi_principal [String, nil] sasl principal
         setting :sasl_gssapi_principal, nil
         # option sasl_gssapi_keytab [String, nil] sasl keytab
